@@ -82,18 +82,18 @@ function Card({ title, href, tools, imgsrc, imgsize, tags }: CardProps) {
               key={`${title} ${tool}`}
               src={tool}
               alt={tool}
-              width={28}
-              height={28}
+              width={24}
+              height={24}
               className="rounded-xs"
             />
           ))}
         </div>
       </div>
-      <div className="flex gap-[6px] mt-[2px]">
+      <div className="flex gap-[6px] mt-1 w-4/5 flex-wrap">
         {tags.map((tag) => (
           <div
             key={`${title} ${tag}`}
-            className="flex items-center px-1 h-[17px] bg-main-gray-light/50 text-[11px]"
+            className="flex items-center shrink-0 px-1 h-[17px] bg-main-gray-light/50 text-[11px]"
           >
             {tag}
           </div>
