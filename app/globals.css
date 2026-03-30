@@ -27,3 +27,38 @@ body {
     -apple-system,
     sans-serif;
 }
+
+html,
+body {
+  -ms-overflow-style: none; /* IE/Edge legacy */
+  scrollbar-width: none; /* Firefox */
+}
+
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  display: none; /* Chrome/Safari */
+}
+
+/* 내부 스크롤 컨테이너까지 전부 숨김 */
+* {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+*::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  display: none;
+}
+
+@layer base {
+  h4 {
+    @apply text-main-black text-xl font-bold leading-[1.5] text-left break-keep;
+  }
+
+  h5 {
+    @apply text-main-black/70 text-base font-normal leading-[1.6] text-left break-keep;
+  }
+}

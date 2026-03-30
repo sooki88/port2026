@@ -3,10 +3,11 @@ export interface ProjectsType {
   title: string;
   description: string;
   href: string;
-  //   imgsrc: string;
+  mainimgsrc: string[];
   tags: string[];
   links: LinkType[];
   pages: PagesType[];
+  mainimgtext: MainimgtextType;
 }
 
 export interface LinkType {
@@ -18,4 +19,9 @@ export interface PagesType {
   value: string;
   title: string;
   href: string;
+}
+
+export interface MainimgtextType {
+  title: string;
+  description: string;
 }
