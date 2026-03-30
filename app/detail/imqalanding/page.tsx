@@ -10,10 +10,10 @@ export default function ImqalandingPage() {
   if (!project) return null;
 
   return (
-    <div className="flex flex-col min-h-full items-center pt-16 pb-16">
+    <div className="flex flex-col min-h-full items-center pb-16">
       <PageButtons pages={project.pages} />
       <ProjectInfo project={project} />
-      <div className="flex flex-col w-full max-w-[1200px] px-8">
+      <div className="flex flex-col w-full max-w-[1200px] px-4 md:px-8">
         <h4>서비스 구조와 비즈니스 활용 가치를 함께 보여주는 정보 설계</h4>
         <h5 className="mt-4">
           두번째 섹션에서는 서비스가 동작하는 구조를 4단계로 시각화하고, 각

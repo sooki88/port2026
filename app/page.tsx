@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className="flex flex-row justify-center w-full p-8 gap-8">
+    <main className="flex flex-row justify-center w-full p-4 md:p-8 gap-4 md:gap-8">
       <div className="flex flex-col gap-8 w-full">
         {Column1.map((col) => (
           <Card
@@ -129,7 +129,7 @@ const Column1 = [
   {
     title: "하나 스마트창구 태블릿 인터페이스",
     href: "/detail/copartner",
-    tools: ["/tool_xd.webp", "/tool_illustrator.webp"],
+    tools: ["/tool_xd.webp", "/tool_ai.webp"],
     imgsrc: "/thb_hana.webp",
     imgsize: [597.33, 455],
     tags: ["UI", "Tablet", "하나은행", "금융", "2025"],
@@ -189,7 +189,7 @@ const Column3 = [
   {
     title: "Partage",
     href: "/detail/copartner",
-    tools: ["/tool_figma.webp", "/tool_next.js.webp"],
+    tools: ["/tool_figma.webp", "/tool_nextjs.webp"],
     imgsrc: "/thb_yogei.webp",
     imgsize: [597.33, 449],
     tags: [

@@ -4,18 +4,18 @@ import Image from "next/image";
 export default function ProjectInfo({ project }: { project: ProjectsType }) {
   return (
     <section className="flex flex-col items-center w-full gap-18 py-18">
-      <div className="flex flex-col w-full max-w-[1200px] px-8">
-        <h1 className="text-[40px] font-semibold -tracking-[0.5px]">
+      <div className="flex flex-col w-full max-w-[1200px] px-4 md:px-8">
+        <h1 className="text-4xl md:text-[40px] font-semibold -tracking-[0.5px]">
           {project.title}
         </h1>
-        <p className="w-4/5 text-[18px] leading-[160%] break-keep mt-6">
+        <p className="text-base md:text-[18px] leading-[160%] break-keep mt-6">
           {project.description}
         </p>
         <div className="flex flex-wrap gap-2 mt-6">
           {project.tags.map((tag) => (
             <div
               key={tag}
-              className="flex items-center shrink-0 px-2 h-[29px] pb-[1px] bg-main-gray-light/50 text-[14px] rounded-xs"
+              className="flex items-center shrink-0 px-2 h-[26px] md:h-[29px] pb-[1px] bg-main-gray-light/50 text-[14px] rounded-xs"
             >
               {tag}
             </div>
@@ -27,7 +27,7 @@ export default function ProjectInfo({ project }: { project: ProjectsType }) {
               return (
                 <div
                   key={`link ${idx}`}
-                  className="flex items-center gap-1 shrink-0 pl-2 pr-3 h-[29px] bg-main-gray-light/50 text-[14px] rounded-xs"
+                  className="flex items-center gap-1 shrink-0 pl-2 pr-3 h-[26px] md:h-[29px] pb-[1px] bg-main-gray-light/50 text-[14px] rounded-xs"
                 >
                   <Image
                     src={link.icon}
@@ -47,10 +47,10 @@ export default function ProjectInfo({ project }: { project: ProjectsType }) {
       {/* 1200px 이상 */}
       <div className="relative w-full h-[943px] hidden xl:block">
         <div className="absolute top-18 flex flex-col items-center w-full z-1">
-          <h4 className="w-full max-w-[1200px] px-8 text-white">
+          <h4 className="w-full max-w-[1200px] px-4 md:px-8 text-white">
             {project.mainimgtext.title}
           </h4>
-          <h5 className="w-full max-w-[1200px] px-8 mt-4 text-white">
+          <h5 className="w-full max-w-[1200px] px-4 md:px-8 mt-4 text-white">
             {project.mainimgtext.description}
           </h5>
         </div>
@@ -68,10 +68,10 @@ export default function ProjectInfo({ project }: { project: ProjectsType }) {
       </div>
 
       {/* 1200px 미만 */}
-      <div className="w-full h-[943px] xl:hidden">
-        <div className="flex flex-col w-full max-w-[1200px] px-8">
+      <div className="w-full xl:hidden">
+        <div className="flex flex-col w-full max-w-[1200px] px-4 md:px-8">
           <h4>{project.mainimgtext.title}</h4>
-          <h5 className="mt-4 w-4/5">{project.mainimgtext.description}</h5>
+          <h5 className="mt-4">{project.mainimgtext.description}</h5>
         </div>
 
         <div className="relative w-full aspect-[1200/943] overflow-hidden mt-16">

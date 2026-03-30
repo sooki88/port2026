@@ -10,10 +10,10 @@ export default function CopartnerPage() {
   if (!project) return null;
 
   return (
-    <div className="flex flex-col min-h-full items-center pt-16 pb-16">
+    <div className="flex flex-col min-h-full items-center pb-16">
       <PageButtons pages={project.pages} />
       <ProjectInfo project={project} />
-      <div className="flex flex-col w-full max-w-[1200px] px-8">
+      <div className="flex flex-col w-full max-w-[1200px] px-4 md:px-8">
         <h4>핵심 고객 정보와 관리 흐름을 빠르게 파악할 수 있는 CRM 구조</h4>
         <h5 className="mt-4">
           ‘고객관리’ 페이지에서는 고객 리스트의 조회, 검색, 수정, 직접 등록까지

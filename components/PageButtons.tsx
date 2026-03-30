@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function PageButtons({ pages }: { pages: PagesType[] }) {
   return (
-    <div className="w-full max-w-[1200px] flex justify-between py-4 px-5">
+    <div className="w-full max-w-[1200px] flex justify-between py-4 px-3 md:px-5">
       {pages.map((page, idx) => (
         <Link
           key={`${page} ${idx}`}

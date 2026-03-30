@@ -18,7 +18,7 @@ export default function RootLayout({
       lang="en"
       className={`${pretendard.variable} antialiased font-sans relative`}
     >
-      <body className="min-h-full flex flex-col">
+      <body className="min-h-full flex flex-col pt-14 md:pt-16">
         <Header />
         {children}
       </body>
