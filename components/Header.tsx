@@ -27,7 +27,7 @@ export default function Header() {
         href="/"
         className="absolute left-4 md:left-8 hidden md:block top-3 md:top-[14px] text-main-gray-medium font-semibold text-2xl md:text-[28px] -tracking-[0.3px]"
       >
-        남숙희입니다.
+        {/* 남숙희입니다. */}
       </Link>
 
       {/* <Link href="/" className="">

@@ -7,7 +7,7 @@ export const Projects: ProjectsType[] = [
     description:
       "품질관리팀이 서비스 품질 데이터를 빠르게 모니터링하고 분석할 수 있도록 설계한 웹앱입니다. 복잡한 정보를 명확하게 구조화하고, 필요한 데이터에 직관적으로 접근할 수 있는 흐름을 만드는 데 집중했습니다.",
     href: "/detail/imqa",
-    mainimgsrc: ["/main_imqa_pc.webp", "/main_imqa_mobile.webp"],
+    mainimgsrc: ["/main_imqa_pcx2.webp", "/main_imqa_mobilex2.webp"],
     tags: [
       "UX/UI 디자인 100%",
       "Figma",
@@ -18,8 +18,8 @@ export const Projects: ProjectsType[] = [
     ],
     links: [],
     pages: [
-      { value: "prev", title: "IMQA 모니터링 웹앱", href: "/datail/imqa" },
-      { value: "next", title: "굿모닝페이 모바일앱", href: "/datail/gmpay" },
+      { value: "prev", title: "IMQA 모니터링 웹앱", href: "/detail/imqa" },
+      { value: "next", title: "굿모닝페이 모바일앱", href: "/detail/gmpay" },
     ],
     mainimgtext: {
       title: "목적에 따라 다르게 설계한 대시보드 경험",
@@ -33,7 +33,10 @@ export const Projects: ProjectsType[] = [
     description:
       "IMQA의 기능과 가치를 명확하게 전달하기 위해 설계한 랜딩페이지입니다. 서비스의 복잡한 내용을 직관적으로 이해할 수 있도록 정보 구조와 시각적 흐름을 단순하고 명확하게 구성했습니다.",
     href: "/detail/imqalanding",
-    mainimgsrc: ["/main_imqalanding_pc.webp", "/main_imqalanding_mobile.webp"],
+    mainimgsrc: [
+      "/main_imqalanding_pcx2.webp",
+      "/main_imqalanding_mobilex2.webp",
+    ],
     tags: [
       "UX/UI 디자인 100%",
       "퍼블리싱 100%",
@@ -53,7 +56,7 @@ export const Projects: ProjectsType[] = [
     ],
     pages: [
       { value: "prev", title: "HOME", href: "/" },
-      { value: "next", title: "IMQA 모니터링 웹앱", href: "/datail/imqa" },
+      { value: "next", title: "IMQA 모니터링 웹앱", href: "/detail/imqa" },
     ],
     mainimgtext: {
       title: "실시간 데이터 흐름을 시각화한 히어로 영역",
@@ -67,7 +70,7 @@ export const Projects: ProjectsType[] = [
     description:
       "굿모닝페이는 익일 정산을 기반으로 카드결제, 온라인결제, 수기결제, 정기 자동결제, SNS결제 등 다양한 결제 방식을 지원하고 결제 내역을 통합 관리할 수 있는 서비스입니다. 또한 실제 결제를 운영하는 소상공인 가맹점용과, 이들을 관리하는 대리점용으로 구분되어 각 사용자 역할에 맞는 기능을 제공합니다.",
     href: "/detail/gmpay",
-    mainimgsrc: ["/main_gmpay_pc.webp", "/main_gmpay_mobile.webp"],
+    mainimgsrc: ["/main_gmpay_pcx2.webp", "/main_gmpay_mobilex2.webp"],
     tags: [
       "UX/UI 디자인 100%",
       "퍼블리싱 100%",
@@ -80,8 +83,8 @@ export const Projects: ProjectsType[] = [
     ],
     links: [],
     pages: [
-      { value: "prev", title: "IMQA 모니터링 웹앱", href: "/datail/imqa" },
-      { value: "next", title: "씨오파트너 웹앱", href: "/datail/copartner" },
+      { value: "prev", title: "IMQA 모니터링 웹앱", href: "/detail/imqa" },
+      { value: "next", title: "씨오파트너 웹앱", href: "/detail/copartner" },
     ],
     mainimgtext: {
       title: "실시간 데이터 흐름을 시각화한 히어로 영역",
@@ -96,8 +99,8 @@ export const Projects: ProjectsType[] = [
       "굿모닝페이의 핵심 서비스와 도입 정보를 전달하는 랜딩페이지입니다. 소상공인 사용자를 주요 타깃으로 설정하고, 금융 서비스의 진입장벽을 낮추기 위해 친근하고 직관적이며 젊은 인상의 UX/UI로 풀어냈습니다.",
     href: "/detail/gmpaylanding",
     mainimgsrc: [
-      "/main_gmpaylanding_pc.webp",
-      "/main_gmpaylanding_mobile.webp",
+      "/main_gmpaylanding_pcx2.webp",
+      "/main_gmpaylanding_mobilex2.webp",
     ],
     tags: [
       "UX/UI 디자인 100%",
@@ -111,11 +114,11 @@ export const Projects: ProjectsType[] = [
     ],
     links: [{ url: "gmpay.kr", icon: "/link.svg" }],
     pages: [
-      { value: "prev", title: "씨오톡 모바일앱", href: "/datail/cotalk" },
+      { value: "prev", title: "씨오톡 모바일앱", href: "/detail/cotalk" },
       {
         value: "next",
         title: "하나 스마트창구 태블릿 인터페이스",
-        href: "/datail/hanasmart",
+        href: "/detail/hanasmart",
       },
     ],
     mainimgtext: {
@@ -131,7 +134,7 @@ export const Projects: ProjectsType[] = [
     description:
       "씨오톡은 스타트업과 중소기업 CEO를 위한 커뮤니티 앱입니다. 커뮤니티 특유의 부드럽고 친근한 인상을 유지하면서도, 정책자금·노무·경영과 같은 실무 정보가 오가는 서비스인 만큼 전문성과 신뢰감을 함께 전달할 수 있도록 UX/UI를 설계했습니다.",
     href: "/detail/cotalk",
-    mainimgsrc: ["/main_cotalk_pc.webp", "/main_cotalk_mobile.webp"],
+    mainimgsrc: ["/main_cotalk_pcx2.webp", "/main_cotalk_mobilex2.webp"],
     tags: [
       "UX/UI 디자인 70%",
       "Figma",
@@ -142,11 +145,11 @@ export const Projects: ProjectsType[] = [
     ],
     links: [],
     pages: [
-      { value: "prev", title: "씨오파트너 웹앱", href: "/datail/copartner" },
+      { value: "prev", title: "씨오파트너 웹앱", href: "/detail/copartner" },
       {
         value: "next",
         title: "굿모닝페이 홈페이지",
-        href: "/datail/gmpaylanding",
+        href: "/detail/gmpaylanding",
       },
     ],
     mainimgtext: {
@@ -162,7 +165,10 @@ export const Projects: ProjectsType[] = [
     description:
       "굿모닝페이의 핵심 서비스와 도입 정보를 전달하는 랜딩페이지입니다. 소상공인 사용자를 주요 타깃으로 설정하고, 금융 서비스의 진입장벽을 낮추기 위해 친근하고 직관적이며 젊은 인상의 UX/UI로 풀어냈습니다.",
     href: "/detail/copartner",
-    mainimgsrc: ["/main_copartner_pc.webp", "/main_copartner_mobile.webp"],
+    mainimgsrc: [
+      "/main_copartner_pcx2-2.webp",
+      "/main_copartner_mobilex2-2.webp",
+    ],
     tags: [
       "UX/UI 디자인 80%",
       "Figma",
@@ -173,11 +179,11 @@ export const Projects: ProjectsType[] = [
     ],
     links: [],
     pages: [
-      { value: "prev", title: "굿모닝페이 모바일앱", href: "/datail/gmpay" },
-      { value: "next", title: "씨오톡 모바일앱", href: "/datail/cotalk" },
+      { value: "prev", title: "굿모닝페이 모바일앱", href: "/detail/gmpay" },
+      { value: "next", title: "씨오톡 모바일앱", href: "/detail/cotalk" },
     ],
     mainimgtext: {
-      title: "핵심 고객 정보와 관리 흐름을 빠르게 파악할 수 있는 CRM 구조",
+      title: "한눈에 보는 고객 정보와 일정",
       description:
         "첫 화면인 대시보드는 고객의 핵심 정보와 오늘의 일정을 한눈에 확인할 수 있도록 구성했습니다. ",
     },
@@ -189,7 +195,7 @@ export const Projects: ProjectsType[] = [
     description:
       "하나 스마트창구 태블릿 인터페이스는 은행 방문 고객이 대기 시간 동안 필요한 업무를 미리 작성할 수 있도록 설계한 디지털 창구 인터페이스입니다. ",
     href: "/detail/hanasmart",
-    mainimgsrc: ["/main_hanasmart_pc.webp", "/main_hanasmart_mobile.webp"],
+    mainimgsrc: ["/main_hanasmart_pcx2.webp", "/main_hanasmart_mobilex2.webp"],
     tags: [
       "UI 디자인 50%",
       "Illustrator",
@@ -204,9 +210,9 @@ export const Projects: ProjectsType[] = [
       {
         value: "prev",
         title: "굿모닝페이 홈페이지",
-        href: "/datail/gmpaylanding",
+        href: "/detail/gmpaylanding",
       },
-      { value: "next", title: "요기거리 모바일앱", href: "/datail/yogi" },
+      { value: "next", title: "요기거리 모바일앱", href: "/detail/yogi" },
     ],
     mainimgtext: {
       title: "안정감과 친숙함을 담은 시각 톤 설계",
@@ -221,16 +227,16 @@ export const Projects: ProjectsType[] = [
     description:
       "요기거리는 내 주변의 길거리 음식을 지도에서 탐색하고, 직접 등록하거나 이야기를 나눌 수 있는 모바일 앱입니다. 음식 아이콘이 적용된 지도 핀부터 브랜드 캐릭터까지 전반적인 비주얼을 디자인했으며, 밤 포장마차의 불빛을 연상시키는 컬러로 서비스의 분위기를 표현했습니다.",
     href: "/detail/yogi",
-    mainimgsrc: ["/main_yogi_pc.webp", "/main_yogi_mobile.webp"],
+    mainimgsrc: ["/main_yogi_pcx2.webp", "/main_yogi_mobilex2.webp"],
     tags: ["UX/UI 디자인 100%", "Figma", "Mobile", "로컬커뮤니티", "2021"],
     links: [],
     pages: [
       {
         value: "prev",
         title: "하나 스마트창구 태블릿 인터페이스",
-        href: "/datail/hanasmart",
+        href: "/detail/hanasmart",
       },
-      { value: "next", title: "Partage 웹사이트", href: "/datail/partage" },
+      { value: "next", title: "Partage 웹사이트", href: "/detail/partage" },
     ],
     mainimgtext: {
       title: "안정감과 친숙함을 담은 시각 톤 설계",
@@ -244,7 +250,7 @@ export const Projects: ProjectsType[] = [
     title: "Partage 웹사이트",
     description: " ",
     href: "/detail/partage",
-    mainimgsrc: ["/main_partage_pc.webp", "/main_partage_mobile.webp"],
+    mainimgsrc: ["/main_partage_pcx2.webp", "/main_partage_mobilex2.webp"],
     tags: [
       "UX/UI 디자인 100%",
       "퍼블리싱 20%",
@@ -261,8 +267,8 @@ export const Projects: ProjectsType[] = [
       },
     ],
     pages: [
-      { value: "prev", title: "요기거리 모바일앱", href: "/datail/yogi" },
-      { value: "next", title: "IMQA 랜딩페이지", href: "/datail/imqalanding" },
+      { value: "prev", title: "요기거리 모바일앱", href: "/detail/yogi" },
+      { value: "next", title: "IMQA 랜딩페이지", href: "/detail/imqalanding" },
     ],
     mainimgtext: {
       title: " ",

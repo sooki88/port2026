@@ -93,7 +93,9 @@ function Card({ title, href, tools, imgsrc, imgsize, tags }: CardProps) {
         {tags.map((tag) => (
           <div
             key={`${title} ${tag}`}
-            className="flex items-center shrink-0 px-1 h-[17px] bg-main-gray-light/50 text-[11px]"
+            // className="flex items-center justify-center shrink-0 px-1 h-[17px] bg-main-gray-light/50 text-[11px]"
+            className="flex items-center justify-center shrink-0 px-[6px] pt-[2px] pb-[1px] bg-main-gray-light/50 text-[11px] leading-[1.3]"
+            // className="flex items-center justify-center shrink-0 px-[6px] h-[17px] bg-main-gray-light/50 text-[11px] leading-[1.3]"
           >
             {tag}
           </div>
@@ -128,7 +130,7 @@ const Column1 = [
   },
   {
     title: "하나 스마트창구 태블릿 인터페이스",
-    href: "/detail/copartner",
+    href: "/detail/hanasmart",
     tools: ["/tool_xd.webp", "/tool_ai.webp"],
     imgsrc: "/thb_hana.webp",
     imgsize: [597.33, 455],
@@ -139,7 +141,7 @@ const Column1 = [
 const Column2 = [
   {
     title: "IMQA 모니터링 웹앱",
-    href: "/detail/copartner",
+    href: "/detail/imqa",
     tools: ["/tool_figma.webp"],
     imgsrc: "/thb_imqa.webp",
     imgsize: [597.33, 374],
@@ -147,7 +149,7 @@ const Column2 = [
   },
   {
     title: "씨오톡 모바일앱",
-    href: "/detail/copartner",
+    href: "/detail/cotalk",
     tools: ["/tool_figma.webp"],
     imgsrc: "/thb_yogei.webp",
     imgsize: [597.33, 731],
@@ -155,7 +157,7 @@ const Column2 = [
   },
   {
     title: "요기거리 모바일앱",
-    href: "/detail/copartner",
+    href: "/detail/yogi",
     tools: ["/tool_figma.webp"],
     imgsrc: "/thb_yogei.webp",
     imgsize: [597.33, 486],
@@ -166,7 +168,7 @@ const Column2 = [
 const Column3 = [
   {
     title: "굿모닝페이 모바일앱",
-    href: "/detail/copartner",
+    href: "/detail/gmpay",
     tools: ["/tool_figma.webp", "/tool_flutter.webp"],
     imgsrc: "/thb_gmpay.webp",
     imgsize: [597.33, 542],
@@ -174,7 +176,7 @@ const Column3 = [
   },
   {
     title: "굿모닝페이 홈페이지",
-    href: "/detail/copartner",
+    href: "/detail/gmpaylanding",
     tools: ["/tool_figma.webp", "/tool_html.webp"],
     imgsrc: "/thb_gmpaylanding.webp",
     imgsize: [597.33, 455],
@@ -188,7 +190,7 @@ const Column3 = [
   },
   {
     title: "Partage",
-    href: "/detail/copartner",
+    href: "/detail/partage",
     tools: ["/tool_figma.webp", "/tool_nextjs.webp"],
     imgsrc: "/thb_yogei.webp",
     imgsize: [597.33, 449],

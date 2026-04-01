@@ -24,7 +24,7 @@ export default function ImqalandingPage() {
         </h5>
         <div className="relative w-full aspect-[1136/600] overflow-hidden mt-16 rounded-xs">
           <Image
-            src="/p_imqalanding_1.webp"
+            src="/p_imqalanding_1x2.webp"
             alt="imqa 랜딩페이지 이미지"
             fill
             priority
@@ -45,7 +45,7 @@ export default function ImqalandingPage() {
         </h5>
         <div className="relative w-full aspect-[1136/600] overflow-hidden mt-16 rounded-xs">
           <Image
-            src="/p_imqalanding_2.webp"
+            src="/p_imqalanding_2x2.webp"
             alt="imqa 랜딩페이지 이미지"
             fill
             priority
@@ -65,7 +65,7 @@ export default function ImqalandingPage() {
         </h5>
         <div className="relative w-full aspect-[1136/600] overflow-hidden mt-16 rounded-xs">
           <Image
-            src="/p_imqalanding_3.webp"
+            src="/p_imqalanding_3x2.webp"
             alt="imqa 랜딩페이지 이미지"
             fill
             priority

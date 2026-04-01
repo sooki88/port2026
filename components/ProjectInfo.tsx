@@ -1,7 +1,13 @@
 import { ProjectsType } from "@/lib/types";
 import Image from "next/image";
 
-export default function ProjectInfo({ project }: { project: ProjectsType }) {
+export default function ProjectInfo({
+  project,
+  textdark = false,
+}: {
+  project: ProjectsType;
+  textdark?: boolean;
+}) {
   return (
     <section className="flex flex-col items-center w-full gap-18 py-18">
       <div className="flex flex-col w-full max-w-[1200px] px-4 md:px-8">
@@ -47,10 +53,14 @@ export default function ProjectInfo({ project }: { project: ProjectsType }) {
       {/* 1200px 이상 */}
       <div className="relative w-full h-[943px] hidden xl:block">
         <div className="absolute top-18 flex flex-col items-center w-full z-1">
-          <h4 className="w-full max-w-[1200px] px-4 md:px-8 text-white">
+          <h4
+            className={`w-full max-w-[1200px] px-4 md:px-8 ${textdark ? "text-main-black" : "text-white"}`}
+          >
             {project.mainimgtext.title}
           </h4>
-          <h5 className="w-full max-w-[1200px] px-4 md:px-8 mt-4 text-white">
+          <h5
+            className={`w-full max-w-[1200px] px-4 md:px-8 mt-4 ${textdark ? "text-main-black" : "text-white"}`}
+          >
             {project.mainimgtext.description}
           </h5>
         </div>
@@ -61,8 +71,9 @@ export default function ProjectInfo({ project }: { project: ProjectsType }) {
             alt={`${project.title} 메인 이미지`}
             fill
             priority
+            // quality={90}
             className="object-cover object-center"
-            sizes="1200px"
+            sizes="100vw"
           />
         </div>
       </div>
