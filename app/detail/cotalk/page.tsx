@@ -14,12 +14,14 @@ export default function CotalkPage() {
       <PageButtons pages={project.pages} />
       <ProjectInfo project={project} textdark />
       <div className="flex flex-col w-full max-w-[1200px] px-4 md:px-8">
-        <h4>일관된 구조로 설계한 조회·발행·상세 플로우</h4>
+        <h4>홈에서 시작되는 커뮤니티와 맞춤형 정보 탐색</h4>
         <h5 className="mt-4">
-          현금영수증은 리스트 확인, 발행, 상세 조회가 자연스럽게 이어지는 구조로
-          설계했고, 결제와 정산 역시 동일한 패턴과 플로우를 적용했습니다. 이를
-          통해 사용자는 기능별 차이를 새롭게 학습하지 않아도, 일관된 방식으로
-          주요 업무를 빠르게 처리할 수 있습니다.
+          홈의 ‘씨오톡’ 카드는 CEO들의 고민과 일상을 나누는 ‘대나무숲’과,
+          노무·경영·세무 등의 질문에 전문가 답변을 받을 수 있는 ‘전문가 Q&A’로
+          연결되어 커뮤니티와 실무형 정보 교환이 함께 이루어지도록 했습니다. ‘AI
+          정책자금 추천’ 카드는 회사 기본 정보와 입력 완성도에 따른 추천
+          정확도를 보여주고, 매칭도가 높은 정책자금과 고용지원금을 우선 노출한
+          뒤 전체 리스트 탐색으로 이어지도록 구성했습니다.
         </h5>
         <div className="relative w-full aspect-[1136/695] overflow-hidden mt-16 rounded-xs">
           <Image

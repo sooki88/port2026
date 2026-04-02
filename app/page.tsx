@@ -1,11 +1,19 @@
+import {
+  MobileColumn,
+  PcColumn1,
+  PcColumn2,
+  PcColumn3,
+  TabletColumn1,
+  TabletColumn2,
+} from "@/lib/maincolumns";
 import Image from "next/image";
 import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className="flex flex-row justify-center w-full p-4 md:p-8 gap-4 md:gap-8">
-      <div className="flex flex-col gap-8 w-full">
-        {Column1.map((col) => (
+    <main className="flex flex-row justify-center w-full p-4 md:p-6 lg:p-8 gap-4 md:gap-6 lg:gap-8">
+      <div className="hidden xl:flex flex-col gap-8 w-full">
+        {PcColumn1.map((col) => (
           <Card
             key={col.title}
             href={col.href}
@@ -18,8 +26,8 @@ export default function Home() {
         ))}
       </div>
 
-      <div className="flex flex-col gap-8 w-full">
-        {Column2.map((col) => (
+      <div className="hidden xl:flex flex-col gap-8 w-full">
+        {PcColumn2.map((col) => (
           <Card
             key={col.title}
             href={col.href}
@@ -32,8 +40,51 @@ export default function Home() {
         ))}
       </div>
 
-      <div className="flex flex-col gap-8 w-full">
-        {Column3.map((col) => (
+      <div className="hidden xl:flex flex-col gap-8 w-full">
+        {PcColumn3.map((col) => (
+          <Card
+            key={col.title}
+            href={col.href}
+            title={col.title}
+            tools={col.tools}
+            imgsrc={col.imgsrc}
+            imgsize={col.imgsize}
+            tags={col.tags}
+          />
+        ))}
+      </div>
+
+      {/* 태블릿 */}
+      <div className="hidden md:flex xl:hidden flex-col gap-8 w-full">
+        {TabletColumn1.map((col) => (
+          <Card
+            key={col.title}
+            href={col.href}
+            title={col.title}
+            tools={col.tools}
+            imgsrc={col.imgsrc}
+            imgsize={col.imgsize}
+            tags={col.tags}
+          />
+        ))}
+      </div>
+      <div className="hidden md:flex xl:hidden flex-col gap-8 w-full">
+        {TabletColumn2.map((col) => (
+          <Card
+            key={col.title}
+            href={col.href}
+            title={col.title}
+            tools={col.tools}
+            imgsrc={col.imgsrc}
+            imgsize={col.imgsize}
+            tags={col.tags}
+          />
+        ))}
+      </div>
+
+      {/* 모바일 */}
+      <div className="md:hidden flex flex-col gap-8 w-full">
+        {MobileColumn.map((col) => (
           <Card
             key={col.title}
             href={col.href}
@@ -94,7 +145,7 @@ function Card({ title, href, tools, imgsrc, imgsize, tags }: CardProps) {
           <div
             key={`${title} ${tag}`}
             // className="flex items-center justify-center shrink-0 px-1 h-[17px] bg-main-gray-light/50 text-[11px]"
-            className="flex items-center justify-center shrink-0 px-[6px] pt-[2px] pb-[1px] bg-main-gray-light/50 text-[11px] leading-[1.3]"
+            className="flex items-center justify-center shrink-0 px-[6px] pt-[2px] pb-[2px] bg-main-gray-light/50 text-[11px] leading-[1.3]"
             // className="flex items-center justify-center shrink-0 px-[6px] h-[17px] bg-main-gray-light/50 text-[11px] leading-[1.3]"
           >
             {tag}
@@ -104,101 +155,3 @@ function Card({ title, href, tools, imgsrc, imgsize, tags }: CardProps) {
     </Link>
   );
 }
-
-const Column1 = [
-  {
-    title: "IMQA 랜딩페이지",
-    href: "/detail/imqalanding",
-    tools: ["/tool_figma.webp", "/tool_nextjs.webp"],
-    imgsrc: "/thb_imqalanding.webp",
-    imgsize: [597.33, 535],
-    tags: [
-      "UX/UI · Publishing",
-      "Web · Tablet · Mobile",
-      "어니컴",
-      "데이터시각화",
-      "2026",
-    ],
-  },
-  {
-    title: "씨오파트너 웹앱",
-    href: "/detail/copartner",
-    tools: ["/tool_figma.webp"],
-    imgsrc: "/thb_copartner.webp",
-    imgsize: [597.33, 414],
-    tags: ["UX/UI", "Web · Tablet", "런인베스트", "금융", "2023"],
-  },
-  {
-    title: "하나 스마트창구 태블릿 인터페이스",
-    href: "/detail/hanasmart",
-    tools: ["/tool_xd.webp", "/tool_ai.webp"],
-    imgsrc: "/thb_hana.webp",
-    imgsize: [597.33, 455],
-    tags: ["UI", "Tablet", "하나은행", "금융", "2025"],
-  },
-];
-
-const Column2 = [
-  {
-    title: "IMQA 모니터링 웹앱",
-    href: "/detail/imqa",
-    tools: ["/tool_figma.webp"],
-    imgsrc: "/thb_imqa.webp",
-    imgsize: [597.33, 374],
-    tags: ["UX/UI", "Web", "어니컴", "데이터시각화", "2025"],
-  },
-  {
-    title: "씨오톡 모바일앱",
-    href: "/detail/cotalk",
-    tools: ["/tool_figma.webp"],
-    imgsrc: "/thb_yogei.webp",
-    imgsize: [597.33, 731],
-    tags: ["UX/UI", "Mobile", "런인베스트", "금융", "2022"],
-  },
-  {
-    title: "요기거리 모바일앱",
-    href: "/detail/yogi",
-    tools: ["/tool_figma.webp"],
-    imgsrc: "/thb_yogei.webp",
-    imgsize: [597.33, 486],
-    tags: ["UX/UI", "Mobile", "로컬커뮤니티", "2022"],
-  },
-];
-
-const Column3 = [
-  {
-    title: "굿모닝페이 모바일앱",
-    href: "/detail/gmpay",
-    tools: ["/tool_figma.webp", "/tool_flutter.webp"],
-    imgsrc: "/thb_gmpay.webp",
-    imgsize: [597.33, 542],
-    tags: ["UX/UI · Publishing", "Mobile", "코리아페이먼트", "금융", "2025"],
-  },
-  {
-    title: "굿모닝페이 홈페이지",
-    href: "/detail/gmpaylanding",
-    tools: ["/tool_figma.webp", "/tool_html.webp"],
-    imgsrc: "/thb_gmpaylanding.webp",
-    imgsize: [597.33, 455],
-    tags: [
-      "UX/UI · Publishing",
-      "Web · Tablet · Mobile",
-      "코리아페이먼트",
-      "금융",
-      "2025",
-    ],
-  },
-  {
-    title: "Partage",
-    href: "/detail/partage",
-    tools: ["/tool_figma.webp", "/tool_nextjs.webp"],
-    imgsrc: "/thb_yogei.webp",
-    imgsize: [597.33, 449],
-    tags: [
-      "UX/UI · Partial Publishing",
-      "Web · Tablet · Mobile",
-      "콘텐츠 커뮤니티",
-      "2024",
-    ],
-  },
-];

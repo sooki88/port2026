@@ -2,6 +2,7 @@ export interface ProjectsType {
   slug: string;
   title: string;
   description: string;
+  icons?: boolean;
   href: string;
   mainimgsrc: string[];
   tags: string[];
