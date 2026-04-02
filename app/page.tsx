@@ -121,6 +121,7 @@ function Card({ title, href, tools, imgsrc, imgsize, tags }: CardProps) {
           src={imgsrc}
           alt={title}
           fill
+          priority
           className="object-cover"
           sizes="(max-width: 1200px) 100vw, 33vw"
         />
