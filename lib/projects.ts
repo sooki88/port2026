@@ -52,7 +52,7 @@ export const Projects: ProjectsType[] = [
       "2026",
     ],
     links: [
-      { url: "imqa.io", icon: "/link.svg" },
+      { url: "https://imqa.io", icon: "/link.svg" },
       {
         url: "https://github.com/sooki88/imqalanding.git",
         icon: "/github.svg",
@@ -116,7 +116,7 @@ export const Projects: ProjectsType[] = [
       "금융",
       "2024",
     ],
-    links: [{ url: "gmpay.kr", icon: "/link.svg" }],
+    links: [{ url: "https://gmpay.kr", icon: "/link.svg" }],
     pages: [
       { value: "prev", title: "씨오톡 모바일앱", href: "/detail/cotalk" },
       {
@@ -147,7 +147,7 @@ export const Projects: ProjectsType[] = [
       "커뮤니티",
       "2022",
     ],
-    links: [],
+    links: [{ url: "https://copartner.kr/cotalk", icon: "/link.svg" }],
     pages: [
       { value: "prev", title: "씨오파트너 웹앱", href: "/detail/copartner" },
       {
@@ -181,7 +181,7 @@ export const Projects: ProjectsType[] = [
       "금융",
       "2023",
     ],
-    links: [],
+    links: [{ url: "https://copartner.kr/intro", icon: "/link.svg" }],
     pages: [
       { value: "prev", title: "굿모닝페이 모바일앱", href: "/detail/gmpay" },
       { value: "next", title: "씨오톡 모바일앱", href: "/detail/cotalk" },

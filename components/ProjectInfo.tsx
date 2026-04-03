@@ -1,5 +1,6 @@
 import { ProjectsType } from "@/lib/types";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function ProjectInfo({
   project,
@@ -32,7 +33,12 @@ export default function ProjectInfo({
           <div className="flex flex-wrap gap-2 mt-2">
             {project.links.map((link, idx) => {
               return (
-                <div
+                <Link
+                  href={link.url}
+                  title="새탭에서 링크 열기"
+                  aria-label="새탭에서 링크 열기"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   key={`link ${idx}`}
                   className="flex items-center gap-1 shrink-0 pl-2 pr-3 h-[26px] md:h-[29px] pb-[1px] bg-main-gray-light/50 text-[14px] rounded-xs"
                 >
@@ -44,7 +50,7 @@ export default function ProjectInfo({
                   />
 
                   {link.url}
-                </div>
+                </Link>
               );
             })}
           </div>
