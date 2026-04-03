@@ -11,7 +11,7 @@ export default function ProjectInfo({
   return (
     <section className="flex flex-col items-center w-full gap-18 py-18">
       <div className="flex flex-col w-full max-w-[1200px] px-4 md:px-8">
-        <h1 className="text-4xl md:text-[40px] font-semibold -tracking-[0.5px]">
+        <h1 className="text-4xl md:text-[40px] font-semibold -tracking-[0.7px]">
           {project.title}
         </h1>
         <p className="text-base md:text-[18px] leading-[160%] break-keep mt-6">

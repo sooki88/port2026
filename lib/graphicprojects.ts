@@ -17,7 +17,7 @@ export const GraphicProjects: ProjectsType[] = [
       {
         value: "prev",
         title: "HOME",
-        href: "/graphic",
+        href: "/editorial",
       },
       {
         value: "next",
@@ -144,7 +144,7 @@ export const GraphicProjects: ProjectsType[] = [
     description:
       "법인 운영 전반의 전문가 솔루션을 제시하는 Learninvest 회사의 로고 디자인으로, ‘업계 1위', ‘성장’의 컨셉을 담아내어 신뢰감 있는 브랜드 이미지를 구축했습니다.",
     href: "/detail/logo",
-    mainimgsrc: ["/main_logo_pcx15.webp", "/main_logo_mobilex15-2.webp"],
+    mainimgsrc: ["/main_logo_pcx15-2.webp", "/main_logo_mobilex15-2.webp"],
     tags: [
       "로고 · 브랜딩 100%",
       "Illustrator",
@@ -213,7 +213,7 @@ export const GraphicProjects: ProjectsType[] = [
     description:
       "C-Liner 제품설명서는 총 28페이지로 구성된 제품 안내서로, 회사 소개를 시작으로 제품 효과, 구성 부품, 조립 방법, 사용 예시, 관련 액세서리, 보관 방법, 주의사항까지 단계적으로 이해할 수 있도록 구성했습니다.",
     href: "/detail/cliner",
-    mainimgsrc: ["/main_cliner_pcx15.webp", "/main_cliner_mobilex15.webp"],
+    mainimgsrc: ["/main_cliner_pcx15-3.webp", "/main_cliner_mobilex15-2.webp"],
     tags: [
       "에디토리얼 100%",
       "Illustrator",

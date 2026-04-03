@@ -7,8 +7,29 @@ import { usePathname } from "next/navigation";
 export default function Header() {
   const pathname = usePathname();
 
-  const isHome = pathname === "/";
-  const isGraphic = pathname === "/graphic";
+  const isHome =
+    pathname === "/" ||
+    pathname === "/detail/imqalanding" ||
+    pathname === "/detail/imqa" ||
+    pathname === "/detail/gmpay" ||
+    pathname === "/detail/copartner" ||
+    pathname === "/detail/cotalk" ||
+    pathname === "/detail/gmapylanding" ||
+    pathname === "/detail/hanasmart" ||
+    pathname === "/detail/yogi" ||
+    pathname === "/detail/partage";
+  const isEditorial =
+    pathname === "/editorial" ||
+    pathname === "/detail/imqaguide" ||
+    pathname === "/detail/ibooja" ||
+    pathname === "/detail/trust" ||
+    pathname === "/detail/collabo" ||
+    pathname === "/detail/logo" ||
+    pathname === "/detail/roopre" ||
+    pathname === "/detail/cliner";
+
+  console.log("pathname", pathname);
+  console.log(Boolean(isHome), Boolean(isEditorial));
 
   return (
     <header className="fixed top-0 left-0 right-0 flex h-14 md:h-16 items-center justify-center w-full gap-4 z-50 bg-white backdrop-blur-md border-b-1 border-main-gray-light/50">
@@ -30,12 +51,12 @@ export default function Header() {
         />
       </Link>
 
-      <Link href="/graphic" className="relative">
+      <Link href="/editorial" className="relative">
         <div className="relative w-9 h-9 md:w-10 md:h-10">
           <Image
             // src="/tool_photoshop_gry.webp"
             src={
-              isGraphic ? "/tool_photoshop.webp" : "/tool_photoshop_gry.webp"
+              isEditorial ? "/tool_photoshop.webp" : "/tool_photoshop_gry.webp"
             }
             alt="포토샵 버튼"
             fill
@@ -47,7 +68,7 @@ export default function Header() {
         <div className="absolute top-0 left-5 w-9 h-9 md:w-10 md:h-10">
           <Image
             // src="/tool_ai_gry.webp"
-            src={isGraphic ? "/tool_ai.webp" : "/tool_ai_gry.webp"}
+            src={isEditorial ? "/tool_ai.webp" : "/tool_ai_gry.webp"}
             alt="일러스트 버튼"
             fill
             className="rounded-sm outline outline-[0.7px] outline-white object-contain"

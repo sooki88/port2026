@@ -12,7 +12,7 @@ export default function ClinerPage() {
   return (
     <div className="flex flex-col min-h-full items-center pb-16">
       <PageButtons pages={project.pages} />
-      <ProjectInfo project={project} />
+      <ProjectInfo project={project} textdark />
       <div className="flex flex-col w-full max-w-[1200px] px-4 md:px-8">
         <h4>라인 일러스트와 포인트 컬러로 완성한 미래지향적 비주얼 톤</h4>
         <h5 className="mt-4">
