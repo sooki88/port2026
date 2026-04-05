@@ -23,12 +23,11 @@ export default function CotalkPage() {
           정확도를 보여주고, 매칭도가 높은 정책자금과 고용지원금을 우선 노출한
           뒤 전체 리스트 탐색으로 이어지도록 구성했습니다.
         </h5>
-        <div className="relative w-full aspect-[1136/695] overflow-hidden mt-16 rounded-xs">
+        <div className="relative w-full aspect-[1136/695] overflow-hidden mt-16 rounded-xs bg-main-gray-light/30">
           <Image
             src="/p_cotalk_1x2.webp"
             alt="씨오톡 이미지"
             fill
-            priority
             className="object-contain object-center"
             sizes="100vw"
           />
@@ -43,12 +42,11 @@ export default function CotalkPage() {
           나누어, 사용자가 한 번에 많은 정보를 입력하지 않아도 자연스럽게 개설을
           완료할 수 있도록 했습니다.
         </h5>
-        <div className="relative w-full aspect-[1136/695] overflow-hidden mt-16 rounded-xs">
+        <div className="relative w-full aspect-[1136/695] overflow-hidden mt-16 rounded-xs bg-main-gray-light/30">
           <Image
             src="/p_cotalk_2x2.webp"
             alt="씨오톡 이미지"
             fill
-            priority
             className="object-contain object-center"
             sizes="100vw"
           />

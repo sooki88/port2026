@@ -21,34 +21,31 @@ export default function ClinerPage() {
           포인트만 메인 컬러로 강조해, 설명서 전체에 미래지향적이고 기계적인
           분위기가 드러나도록 설계했습니다.
         </h5>
-        <div className="relative w-full aspect-[1136/674] overflow-hidden mt-16 rounded-xs">
+        <div className="relative w-full aspect-[1136/674] overflow-hidden mt-16 rounded-xs bg-main-gray-light/30">
           <Image
             src="/p_cliner_1x15.webp"
             alt="c-liner 제품설명서 이미지"
             fill
-            priority
             className="object-contain object-center"
             sizes="100vw"
           />
         </div>
 
-        <div className="relative w-full aspect-[1136/1061] overflow-hidden mt-16 rounded-xs">
+        <div className="relative w-full aspect-[1136/1061] overflow-hidden mt-16 rounded-xs bg-main-gray-light/30">
           <Image
             src="/p_cliner_2x15.webp"
             alt="c-liner 제품설명서 이미지"
             fill
-            priority
             className="object-contain object-center"
             sizes="100vw"
           />
         </div>
 
-        <div className="relative w-full aspect-[1136/1365] overflow-hidden mt-16 rounded-xs">
+        <div className="relative w-full aspect-[1136/1365] overflow-hidden mt-16 rounded-xs bg-main-gray-light/30">
           <Image
             src="/p_cliner_3x15.webp"
             alt="c-liner 제품설명서 이미지"
             fill
-            priority
             className="object-contain object-center"
             sizes="100vw"
           />

@@ -22,12 +22,11 @@ export default function GmpaylandingPage() {
           이미지를 적극적으로 활용해 신뢰감을 높이고, 서비스 정보를 더 쉽게
           이해할 수 있도록 했습니다.
         </h5>
-        <div className="relative w-full aspect-[1136/758] overflow-hidden mt-16 rounded-xs">
+        <div className="relative w-full aspect-[1136/758] overflow-hidden mt-16 rounded-xs bg-main-gray-light/30">
           <Image
             src="/p_gmpaylanding_1x2.webp"
             alt="굿모닝페이 랜딩페이지 이미지"
             fill
-            priority
             className="object-contain object-center"
             sizes="100vw"
           />
@@ -42,12 +41,11 @@ export default function GmpaylandingPage() {
           나누어, 사용자가 한 번에 많은 정보를 입력하지 않아도 자연스럽게 개설을
           완료할 수 있도록 했습니다.
         </h5> */}
-        <div className="relative w-full aspect-[1136/726] overflow-hidden mt-16 rounded-xs">
+        <div className="relative w-full aspect-[1136/726] overflow-hidden mt-16 rounded-xs bg-main-gray-light/30">
           <Image
             src="/p_gmpaylanding_2x2.webp"
             alt="굿모닝페이 랜딩페이지 이미지"
             fill
-            priority
             className="object-contain object-center"
             sizes="100vw"
           />

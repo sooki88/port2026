@@ -24,12 +24,11 @@ export default function YogiPage() {
           코치마크를 통해 주요 기능과 사용 흐름을 안내해, 처음 접하는 사용자도
           서비스 구조를 쉽게 이해하고 사용할 수 있도록 설계했습니다.
         </h5>
-        <div className="relative w-full aspect-[1136/569] overflow-hidden mt-16 rounded-xs">
+        <div className="relative w-full aspect-[1136/569] overflow-hidden mt-16 rounded-xs bg-main-gray-light/30">
           <Image
             src="/p_yogi_1x2.webp"
             alt="요기거리 이미지"
             fill
-            priority
             className="object-contain object-center"
             sizes="100vw"
           />
@@ -41,12 +40,11 @@ export default function YogiPage() {
           있도록 지도와 카드 리스트 구조를 함께 제공하고, 핀 선택을 통해 상세
           정보까지 직관적으로 연결되도록 설계했습니다.
         </h5>
-        <div className="relative w-full aspect-[1136/901] overflow-hidden mt-16 rounded-xs">
+        <div className="relative w-full aspect-[1136/901] overflow-hidden mt-16 rounded-xs bg-main-gray-light/30">
           <Image
             src="/p_yogi_2x2.webp"
             alt="요기거리 이미지"
             fill
-            priority
             className="object-contain object-center"
             sizes="100vw"
           />
@@ -59,12 +57,11 @@ export default function YogiPage() {
           등록 진입장벽은 낮추면서도, 길거리 음식점의 특성에 맞게 시간·요일별
           다른 위치와 다양한 상세 정보를 유연하게 담을 수 있도록 했습니다.
         </h5>
-        <div className="relative w-full aspect-[1136/770] overflow-hidden mt-16 rounded-xs">
+        <div className="relative w-full aspect-[1136/770] overflow-hidden mt-16 rounded-xs bg-main-gray-light/30">
           <Image
             src="/p_yogi_3x2.webp"
             alt="요기거리 이미지"
             fill
-            priority
             className="object-contain object-center"
             sizes="100vw"
           />
@@ -80,12 +77,11 @@ export default function YogiPage() {
           더했습니다. 이를 통해 단순 탐색을 넘어, 참여와 축적의 경험이
           이어지도록 설계했습니다.
         </h5>
-        <div className="relative w-full aspect-[1136/729] overflow-hidden mt-16 rounded-xs">
+        <div className="relative w-full aspect-[1136/729] overflow-hidden mt-16 rounded-xs bg-main-gray-light/30">
           <Image
             src="/p_yogi_4x2.webp"
             alt="요기거리 이미지"
             fill
-            priority
             className="object-contain object-center"
             sizes="100vw"
           />

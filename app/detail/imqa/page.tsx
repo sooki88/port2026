@@ -37,22 +37,20 @@ export default function ImqaPage() {
           ))}
         </div>
 
-        <div className="relative w-full aspect-[1136/280] overflow-hidden mt-8 rounded-xs">
+        <div className="relative w-full aspect-[1136/280] overflow-hidden mt-8 rounded-xs bg-main-gray-light/30">
           <Image
             src="/p_imqa_1x2.webp"
             alt="imqa 이미지"
             fill
-            priority
             className="object-contain object-center"
             sizes="100vw"
           />
         </div>
-        <div className="relative w-full aspect-[1136/280] overflow-hidden mt-2 rounded-xs">
+        <div className="relative w-full aspect-[1136/280] overflow-hidden mt-2 rounded-xs bg-main-gray-light/30">
           <Image
             src="/p_imqa_2x2.webp"
             alt="imqa 이미지"
             fill
-            priority
             className="object-contain object-center"
             sizes="100vw"
           />
@@ -63,12 +61,11 @@ export default function ImqaPage() {
           대형 모니터 환경에 맞춰 화면이 넓어질수록 폰트와 여백이 부드럽게
           확장되도록 설계했습니다.
         </h5>
-        <div className="relative w-full aspect-[1136/400] overflow-hidden mt-16 rounded-xs">
+        <div className="relative w-full aspect-[1136/400] overflow-hidden mt-16 rounded-xs bg-main-gray-light/30">
           <Image
             src="/p_imqa_3x2.webp"
             alt="imqa 랜딩페이지 이미지"
             fill
-            priority
             className="object-contain object-center"
             sizes="100vw"
           />
@@ -153,10 +150,10 @@ export default function ImqaPage() {
           <Box bg>수정 상태</Box>
         </div>
 
-        <div className="relative w-full aspect-[1136/1176] overflow-hidden mt-8 rounded-xs">
+        <div className="relative w-full aspect-[1136/1176] overflow-hidden mt-8 rounded-xs bg-main-gray-light/30">
           <Image
             src="/p_imqa_4x2.webp"
-            alt="화살표"
+            alt="imqa 이미지"
             fill
             priority
             className="object-contain object-center"

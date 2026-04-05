@@ -25,34 +25,31 @@ export default function CollaboPage() {
           요소를 활용하고, 여백과 정보 배치를 조정해 보다 리듬감 있게 읽히도록
           구성했습니다.
         </h5>
-        <div className="relative w-full aspect-[1136/578] overflow-hidden mt-16 rounded-xs">
+        <div className="relative w-full aspect-[1136/578] overflow-hidden mt-16 rounded-xs bg-main-gray-light/30">
           <Image
             src="/p_collabo_1x15.webp"
             alt="76콜라보 현장지원센터 가이드북 이미지"
             fill
-            priority
             className="object-contain object-center"
             sizes="100vw"
           />
         </div>
 
-        <div className="relative w-full aspect-[1136/578] overflow-hidden mt-16 rounded-xs">
+        <div className="relative w-full aspect-[1136/578] overflow-hidden mt-16 rounded-xs bg-main-gray-light/30">
           <Image
             src="/p_collabo_2x15.webp"
             alt="76콜라보 현장지원센터 가이드북 이미지"
             fill
-            priority
             className="object-contain object-center"
             sizes="100vw"
           />
         </div>
 
-        <div className="relative w-full aspect-[1136/235] overflow-hidden mt-16 rounded-xs">
+        <div className="relative w-full aspect-[1136/235] overflow-hidden mt-16 rounded-xs bg-main-gray-light/30">
           <Image
             src="/p_collabo_3x15.webp"
             alt="76콜라보 현장지원센터 가이드북 이미지"
             fill
-            priority
             className="object-contain object-center"
             sizes="100vw"
           />

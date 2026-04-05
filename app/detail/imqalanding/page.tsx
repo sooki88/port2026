@@ -22,12 +22,11 @@ export default function ImqalandingPage() {
           신뢰도를 높이고, 어떤 비즈니스에서 어떻게 활용될 수 있는지 자연스럽게
           전달했습니다.
         </h5>
-        <div className="relative w-full aspect-[1136/600] overflow-hidden mt-16 rounded-xs">
+        <div className="relative w-full aspect-[1136/600] overflow-hidden mt-16 rounded-xs bg-main-gray-light/30">
           <Image
             src="/p_imqalanding_1x2.webp"
             alt="imqa 랜딩페이지 이미지"
             fill
-            priority
             className="object-contain object-center"
             sizes="100vw"
           />
@@ -43,12 +42,11 @@ export default function ImqalandingPage() {
           섹션에서는 최신 뉴스를 롤링 방식으로 노출해, 서비스의 최신성과
           지속적인 운영 흐름이 자연스럽게 전달되도록 구성했습니다.
         </h5>
-        <div className="relative w-full aspect-[1136/600] overflow-hidden mt-16 rounded-xs">
+        <div className="relative w-full aspect-[1136/600] overflow-hidden mt-16 rounded-xs bg-main-gray-light/30">
           <Image
             src="/p_imqalanding_2x2.webp"
             alt="imqa 랜딩페이지 이미지"
             fill
-            priority
             className="object-contain object-center"
             sizes="100vw"
           />
@@ -63,12 +61,11 @@ export default function ImqalandingPage() {
           수집할 수 있도록 해, 사용자 접점과 문의 분석이 자연스럽게 이어지도록
           설계했습니다.
         </h5>
-        <div className="relative w-full aspect-[1136/600] overflow-hidden mt-16 rounded-xs">
+        <div className="relative w-full aspect-[1136/600] overflow-hidden mt-16 rounded-xs bg-main-gray-light/30">
           <Image
             src="/p_imqalanding_3x2.webp"
             alt="imqa 랜딩페이지 이미지"
             fill
-            priority
             className="object-contain object-center"
             sizes="100vw"
           />

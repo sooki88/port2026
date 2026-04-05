@@ -9,20 +9,29 @@ interface CardProps {
   imgsrc: string;
   imgsize: number[];
   tags: string[];
+  isPriority?: boolean;
 }
 
-export function Card({ title, href, tools, imgsrc, imgsize, tags }: CardProps) {
+export function Card({
+  title,
+  href,
+  tools,
+  imgsrc,
+  imgsize,
+  tags,
+  isPriority = false,
+}: CardProps) {
   return (
     <Link href={href} className="group flex flex-col">
       <div
-        className="relative w-full overflow-hidden rounded-xs"
+        className="relative w-full overflow-hidden rounded-xs bg-main-gray-light/30"
         style={{ aspectRatio: `${imgsize[0]} / ${imgsize[1]}` }}
       >
         <Image
           src={imgsrc}
           alt={title}
           fill
-          priority
+          priority={isPriority}
           className="object-cover transition-transform duration-500 ease-out group-hover:scale-105"
           sizes="(max-width: 1200px) 100vw, 33vw"
         />

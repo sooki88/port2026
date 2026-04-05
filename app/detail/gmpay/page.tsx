@@ -24,12 +24,11 @@ export default function GmpayPage() {
           수 있게 했고, 우측 상단의 햄버거 메뉴를 통해 전체 기능을 리스트
           형태로도 탐색할 수 있도록 설계했습니다.
         </h5>
-        <div className="relative w-full aspect-[1136/650] overflow-hidden mt-16 rounded-xs">
+        <div className="relative w-full aspect-[1136/650] overflow-hidden mt-16 rounded-xs bg-main-gray-light/30">
           <Image
             src="/p_gmpay_1x2.webp"
             alt="gmpay 이미지"
             fill
-            priority
             className="object-contain object-center"
             sizes="100vw"
           />
@@ -42,12 +41,11 @@ export default function GmpayPage() {
           통해 사용자는 기능별 차이를 새롭게 학습하지 않아도, 일관된 방식으로
           주요 업무를 빠르게 처리할 수 있습니다.
         </h5>
-        <div className="relative w-full aspect-[1136/558] overflow-hidden mt-16 rounded-xs">
+        <div className="relative w-full aspect-[1136/558] overflow-hidden mt-16 rounded-xs bg-main-gray-light/30">
           <Image
             src="/p_gmpay_2x2.webp"
             alt="gmpay 이미지"
             fill
-            priority
             className="object-contain object-center"
             sizes="100vw"
           />
@@ -63,22 +61,20 @@ export default function GmpayPage() {
           객단가 순위를 메달과 트로피 형식으로 표현해, 보다 직관적이고 흥미롭게
           확인할 수 있도록 설계했습니다.
         </h5>
-        <div className="relative w-full aspect-[1136/654] overflow-hidden mt-16 rounded-xs">
+        <div className="relative w-full aspect-[1136/654] overflow-hidden mt-16 rounded-xs bg-main-gray-light/30">
           <Image
             src="/p_gmpay_3x2.webp"
             alt="gmpay 이미지"
             fill
-            priority
             className="object-contain object-center"
             sizes="100vw"
           />
         </div>
-        <div className="relative w-full aspect-[1136/803] overflow-hidden mt-20 rounded-xs">
+        <div className="relative w-full aspect-[1136/803] overflow-hidden mt-20 rounded-xs bg-main-gray-light/30">
           <Image
             src="/p_gmpay_4x2.webp"
             alt="gmpay 이미지"
             fill
-            priority
             className="object-contain object-center"
             sizes="100vw"
           />

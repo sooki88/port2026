@@ -87,7 +87,7 @@ export default function ProjectInfo({
           )}
         </div>
 
-        <div className="relative h-[943px] w-full overflow-hidden">
+        <div className="relative h-[943px] w-full overflow-hidden bg-main-gray-light/30">
           <Image
             src={project.mainimgsrc[0]}
             alt={`${project.title} 메인 이미지`}
@@ -123,7 +123,7 @@ export default function ProjectInfo({
         </div>
 
         <div
-          className={`relative w-full ${project.slug == "imqa" ? "aspect-[1200/741]" : "aspect-[1200/943]"} overflow-hidden mt-16`}
+          className={`relative w-full ${project.slug == "imqa" ? "aspect-[1200/741]" : "aspect-[1200/943]"} overflow-hidden mt-16 bg-main-gray-light/30`}
         >
           <Image
             src={project.mainimgsrc[1]}

@@ -20,22 +20,20 @@ export default function CopartnerPage() {
           하나의 흐름 안에서 처리할 수 있도록 설계해 반복적인 고객 관리 업무를
           더 효율적으로 처리할 수 있도록 했습니다.
         </h5>
-        <div className="relative w-full aspect-[1136/561] overflow-hidden mt-16 rounded-xs">
+        <div className="relative w-full aspect-[1136/561] overflow-hidden mt-16 rounded-xs bg-main-gray-light/30">
           <Image
             src="/p_copartner_1x2.webp"
             alt="씨오파트너 이미지"
             fill
-            priority
             className="object-contain object-center"
             sizes="100vw"
           />
         </div>
-        <div className="relative w-full aspect-[1136/1022] overflow-hidden mt-16 rounded-xs">
+        <div className="relative w-full aspect-[1136/1022] overflow-hidden mt-16 rounded-xs bg-main-gray-light/30">
           <Image
             src="/p_copartner_2x2.webp"
             alt="씨오파트너 이미지"
             fill
-            priority
             className="object-contain object-center"
             sizes="100vw"
           />
@@ -50,12 +48,11 @@ export default function CopartnerPage() {
           결과물은 재무설계 컨설팅에 바로 활용할 수 있도록 실무성을
           고려했습니다.
         </h5>
-        <div className="relative w-full aspect-[1136/1081] overflow-hidden mt-16 rounded-xs">
+        <div className="relative w-full aspect-[1136/1081] overflow-hidden mt-16 rounded-xs bg-main-gray-light/30">
           <Image
             src="/p_copartner_3x2.webp"
             alt="씨오파트너 이미지"
             fill
-            priority
             className="object-contain object-center"
             sizes="100vw"
           />

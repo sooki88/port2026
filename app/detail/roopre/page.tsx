@@ -23,23 +23,21 @@ export default function RooprePage() {
           접어서 볼 때도 필요한 내용을 보다 직관적으로 탐색할 수 있도록
           설계했습니다.
         </h5>
-        <div className="relative w-full aspect-[1136/178] overflow-hidden mt-16 rounded-xs">
+        <div className="relative w-full aspect-[1136/178] overflow-hidden mt-16 rounded-xs bg-main-gray-light/30">
           <Image
             src="/p_roopre_1x15.webp"
             alt="루프리텔캄 여행 지도형 가이드 리플릿 이미지"
             fill
-            priority
             className="object-contain object-center"
             sizes="100vw"
           />
         </div>
 
-        <div className="relative w-full aspect-[1136/838] overflow-hidden mt-16 rounded-xs">
+        <div className="relative w-full aspect-[1136/838] overflow-hidden mt-16 rounded-xs bg-main-gray-light/30">
           <Image
             src="/p_roopre_2x15.webp"
             alt="루프리텔캄 여행 지도형 가이드 리플릿 이미지"
             fill
-            priority
             className="object-contain object-center"
             sizes="100vw"
           />

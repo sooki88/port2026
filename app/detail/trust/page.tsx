@@ -21,23 +21,21 @@ export default function TrustPage() {
           로고와 심볼에 사용된 육각형 형태를 시각 요소로 반영해, 전체 리플릿
           안에서 브랜드의 정체성과 통일감이 자연스럽게 이어지도록 구성했습니다.
         </h5>
-        <div className="relative w-full aspect-[1136/348] overflow-hidden mt-16 rounded-xs">
+        <div className="relative w-full aspect-[1136/348] overflow-hidden mt-16 rounded-xs bg-main-gray-light/30">
           <Image
             src="/p_trust_1x15.webp"
             alt="100년 리빙트러스트 센터 리플릿 이미지"
             fill
-            priority
             className="object-contain object-center"
             sizes="100vw"
           />
         </div>
 
-        <div className="relative w-full aspect-[1136/576] overflow-hidden mt-16 rounded-xs">
+        <div className="relative w-full aspect-[1136/576] overflow-hidden mt-16 rounded-xs bg-main-gray-light/30">
           <Image
             src="/p_trust_2x15.webp"
             alt="100년 리빙트러스트 센터 리플릿 이미지"
             fill
-            priority
             className="object-contain object-center"
             sizes="100vw"
           />

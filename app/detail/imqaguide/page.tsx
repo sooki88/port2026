@@ -24,12 +24,11 @@ export default function ImqaguidePage() {
           목적과 성격에 맞는 비주얼 콘셉트를 적용하면서도, 전체 시리즈 안에서는
           동일한 브랜드 톤과 통일감을 유지하도록 설계했습니다.
         </h5>
-        <div className="relative w-full aspect-[1136/775] overflow-hidden mt-16 rounded-xs">
+        <div className="relative w-full aspect-[1136/775] overflow-hidden mt-16 rounded-xs bg-main-gray-light/30">
           <Image
             src="/p_imqaguide_1x15.webp"
             alt="imqa 가이드 이미지"
             fill
-            priority
             className="object-contain object-center"
             sizes="100vw"
           />

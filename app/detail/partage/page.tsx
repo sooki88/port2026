@@ -44,12 +44,11 @@ export default function PartagePage() {
           있게 구성해, 시청 상황에 따라 화면을 유연하게 조정할 수 있도록
           했습니다.
         </h5>
-        <div className="relative w-full aspect-[1136/548] overflow-hidden mt-16 rounded-xs">
+        <div className="relative w-full aspect-[1136/548] overflow-hidden mt-16 rounded-xs bg-main-gray-light/30">
           <Image
             src="/p_partage_2x2.webp"
             alt="partage 이미지"
             fill
-            priority
             className="object-contain object-center"
             sizes="100vw"
           />
@@ -67,12 +66,11 @@ export default function PartagePage() {
           이 외에도 채널 설정과 공유를 위한 모달을 제공해, 시청뿐 아니라 채널
           운영까지 하나의 흐름 안에서 처리할 수 있도록 구성했습니다.
         </h5>
-        <div className="relative w-full aspect-[1136/548] overflow-hidden mt-16 rounded-xs">
+        <div className="relative w-full aspect-[1136/548] overflow-hidden mt-16 rounded-xs bg-main-gray-light/30">
           <Image
             src="/p_partage_3x2.webp"
             alt="partage 이미지"
             fill
-            priority
             className="object-contain object-center"
             sizes="100vw"
           />
