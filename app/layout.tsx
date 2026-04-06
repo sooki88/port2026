@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 import Header from "@/components/Header";
@@ -8,6 +8,11 @@ export const metadata: Metadata = {
   description: "Nam Sooki Portfolio",
 };
 
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+};
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -15,10 +20,10 @@ export default function RootLayout({
 }>) {
   return (
     <html
-      lang="en"
+      lang="ko"
       className={`${pretendard.variable} antialiased font-sans relative`}
     >
-      <body className="min-h-full flex flex-col pt-14 md:pt-16">
+      <body className="min-h-screen flex flex-col pt-14 md:pt-16">
         <Header />
         {children}
       </body>
