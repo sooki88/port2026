@@ -35,7 +35,7 @@ export default function HanasmartPage() {
           기존 종이 신청서의 포맷과 작성 흐름을 반영해, 새로운 인터페이스에서도
           이질감 없이 자연스럽게 사용할 수 있도록 설계했습니다.
         </h5>
-        <div className="relative w-full aspect-[1136/745] overflow-hidden mt-16 rounded-xs bg-main-gray-light/30">
+        <div className="relative w-full aspect-[1136/745] overflow-hidden mt-16 rounded-xs">
           <Image
             src="/p_hanasmart_2x2-4.webp"
             alt="하나 스마트창구 인터페이스 이미지"

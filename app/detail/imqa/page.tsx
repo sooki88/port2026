@@ -61,7 +61,7 @@ export default function ImqaPage() {
           대형 모니터 환경에 맞춰 화면이 넓어질수록 폰트와 여백이 부드럽게
           확장되도록 설계했습니다.
         </h5>
-        <div className="relative w-full aspect-[1136/400] overflow-hidden mt-16 rounded-xs bg-main-gray-light/30">
+        <div className="relative w-full aspect-[1136/400] overflow-hidden mt-16 rounded-xs">
           <Image
             src="/p_imqa_3x2.webp"
             alt="imqa 랜딩페이지 이미지"
