@@ -20,11 +20,12 @@ export default function ImqaPage() {
           있던 필터를 상단으로 재배치해 정보 중심의 컴팩트한 레이아웃으로
           개선하였습니다.
         </h5>
-        <div className="flex gap-3 mt-16">
+
+        <div className="flex flex-wrap gap-3 mt-16 w-full">
           {COMPACTSUM.map((item) => (
             <div
               key={item.title}
-              className="flex flex-col gap-1 text-[14px] -tracking-[1px] text-main-black w-full"
+              className="flex flex-col gap-1 text-[14px] -tracking-[1px] text-main-black min-w-[120px] max-w-[275px] flex-1 shrink-0"
             >
               {item.title}
               <span className="text-4xl leading-[1.3] font-semibold">

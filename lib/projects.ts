@@ -2,6 +2,37 @@ import { ProjectsType } from "./types";
 
 export const Projects: ProjectsType[] = [
   {
+    slug: "nugulang",
+    title: "누구랑 모바일앱",
+    description:
+      "‘누구랑’은 “누구랑 밥 먹지?”, “누구랑 전시 보지?”, “이번 주말 누구랑 놀지?”처럼 함께 취미와 여가 시간을 보낼 친구를 찾는 모바일 앱입니다. 활동과 관심사를 중심으로 상대를 탐색하도록 설계했으며, 일반 사용자뿐 아니라 소정의 수고비를 받고 전문적으로 활동하는 가이드까지 선택할 수 있도록 구성해, 목적에 맞는 만남을 보다 유연하게 찾을 수 있도록 했습니다.",
+    href: "/detail/nugulang",
+    mainimgsrc: ["/main_nugulang_pcx2.webp", "/main_nugulang_mobilex2.webp"],
+    tags: [
+      "UX/UI 디자인 100%",
+      "Figma",
+      "Mobile",
+      "브로드베이",
+      "커뮤니티",
+      "2026",
+    ],
+    links: [],
+    pages: [
+      {
+        value: "prev",
+        title: "Partage 웹사이트",
+        href: "/detail/partage",
+      },
+      { value: "next", title: "IMQA 모니터링 웹앱", href: "/detail/imqa" },
+    ],
+    mainimgtext: {
+      title: "서비스 톤앤매너 설계",
+      description:
+        "로고, 컬러, 말투, 사진 업로드 방식까지 브랜드 경험 전반을 일관되게 설계해, 서비스가 지향하는 활동 중심의 가볍고 건강한 만남이 자연스럽게 전달되도록 했습니다. 함께 걷는 두 사람의 일러스트 로고와 밝은 라임 그린 계열의 메인 컬러를 적용해 친근하고 긍정적인 인상을 만들고, 부드러운 말투와 활동 사진 중심의 등록 구조를 통해 외적인 조건보다 취미와 관심사가 먼저 보이도록 구성했습니다.",
+    },
+  },
+
+  {
     slug: "imqa",
     title: "IMQA 모니터링 웹앱",
     description:
@@ -20,10 +51,10 @@ export const Projects: ProjectsType[] = [
     pages: [
       {
         value: "prev",
-        title: "IMQA 랜딩페이지",
-        href: "/detail/imqalanding",
+        title: "누구랑 모바일앱",
+        href: "/detail/nugulang",
       },
-      { value: "next", title: "굿모닝페이 모바일앱", href: "/detail/gmpay" },
+      { value: "next", title: "IMQA 랜딩페이지", href: "/detail/imqalanding" },
     ],
     mainimgtext: {
       title: "목적에 따라 다르게 설계한 대시보드 경험",
@@ -59,8 +90,12 @@ export const Projects: ProjectsType[] = [
       },
     ],
     pages: [
-      { value: "prev", title: "HOME", href: "/" },
-      { value: "next", title: "IMQA 모니터링 웹앱", href: "/detail/imqa" },
+      { value: "prev", title: "IMQA 모니터링 웹앱", href: "/detail/imqa" },
+      {
+        value: "next",
+        title: "굿모닝페이 홈페이지",
+        href: "/detail/gmpaylanding",
+      },
     ],
     mainimgtext: {
       title: "실시간 데이터 흐름을 시각화한 히어로 영역",
@@ -87,7 +122,11 @@ export const Projects: ProjectsType[] = [
     ],
     links: [],
     pages: [
-      { value: "prev", title: "IMQA 모니터링 웹앱", href: "/detail/imqa" },
+      {
+        value: "prev",
+        title: "굿모닝페이 홈페이지",
+        href: "/detail/gmpaylanding",
+      },
       { value: "next", title: "씨오파트너 웹앱", href: "/detail/copartner" },
     ],
     mainimgtext: {
@@ -118,11 +157,11 @@ export const Projects: ProjectsType[] = [
     ],
     links: [{ url: "https://gmpay.kr", icon: "/link.svg" }],
     pages: [
-      { value: "prev", title: "씨오톡 모바일앱", href: "/detail/cotalk" },
+      { value: "prev", title: "IMQA 랜딩페이지", href: "/detail/imqalanding" },
       {
         value: "next",
-        title: "하나 스마트창구 태블릿 인터페이스",
-        href: "/detail/hanasmart",
+        title: "굿모닝페이 모바일앱",
+        href: "/detail/gmpay",
       },
     ],
     mainimgtext: {
@@ -152,8 +191,8 @@ export const Projects: ProjectsType[] = [
       { value: "prev", title: "씨오파트너 웹앱", href: "/detail/copartner" },
       {
         value: "next",
-        title: "굿모닝페이 홈페이지",
-        href: "/detail/gmpaylanding",
+        title: "하나 스마트창구 태블릿 인터페이스",
+        href: "/detail/hanasmart",
       },
     ],
     mainimgtext: {
@@ -216,8 +255,8 @@ export const Projects: ProjectsType[] = [
     pages: [
       {
         value: "prev",
-        title: "굿모닝페이 홈페이지",
-        href: "/detail/gmpaylanding",
+        title: "씨오톡 모바일앱",
+        href: "/detail/cotalk",
       },
       { value: "next", title: "요기거리 모바일앱", href: "/detail/yogi" },
     ],
@@ -277,7 +316,7 @@ export const Projects: ProjectsType[] = [
     ],
     pages: [
       { value: "prev", title: "요기거리 모바일앱", href: "/detail/yogi" },
-      { value: "next", title: "IMQA 랜딩페이지", href: "/detail/imqalanding" },
+      { value: "next", title: "누구랑 모바일앱", href: "/detail/nugulang" },
     ],
     mainimgtext: {
       title: "영상 몰입과 시청 피로도를 고려한 다크모드 설계",

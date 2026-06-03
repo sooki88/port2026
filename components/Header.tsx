@@ -9,6 +9,7 @@ export default function Header() {
 
   const isHome =
     pathname === "/" ||
+    pathname === "/detail/nugulang" ||
     pathname === "/detail/imqalanding" ||
     pathname === "/detail/imqa" ||
     pathname === "/detail/gmpay" ||
