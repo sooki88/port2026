@@ -28,7 +28,7 @@ export default function NugulangPage() {
         </h5>
         <div className="relative w-full aspect-[1136/589] overflow-hidden mt-16 rounded-xs bg-main-gray-light/30">
           <Image
-            src="/p_nugulang_1x2.webp"
+            src="/p_nugulang1x2-2.webp"
             alt="누구랑 이미지"
             fill
             className="object-contain object-center"
@@ -54,7 +54,7 @@ export default function NugulangPage() {
         </h5>
         <div className="relative w-full aspect-[1136/1322] overflow-hidden mt-16 rounded-xs bg-main-gray-light/30">
           <Image
-            src="/p_nugulang_2x2.webp"
+            src="/p_nugulang2x2-2.webp"
             alt="누구랑 이미지"
             fill
             className="object-contain object-center"
@@ -77,7 +77,7 @@ export default function NugulangPage() {
         </h5>
         <div className="relative w-full aspect-[1136/615] overflow-hidden mt-16 rounded-xs bg-main-gray-light/30">
           <Image
-            src="/p_nugulang_3x2.webp"
+            src="/p_nugulang3x2-2.webp"
             alt="누구랑 이미지"
             fill
             className="object-contain object-center"
@@ -96,7 +96,7 @@ export default function NugulangPage() {
         </h5>
         <div className="relative w-full aspect-[1136/606] overflow-hidden mt-16 rounded-xs bg-main-gray-light/30">
           <Image
-            src="/p_nugulang_4x2.webp"
+            src="/p_nugulang4x2-2.webp"
             alt="누구랑 이미지"
             fill
             className="object-contain object-center"
