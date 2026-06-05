@@ -7,7 +7,10 @@ export const Projects: ProjectsType[] = [
     description:
       "‘누구랑’은 “누구랑 밥 먹지?”, “누구랑 전시 보지?”, “이번 주말 누구랑 놀지?”처럼 함께 취미와 여가 시간을 보낼 친구를 찾는 모바일 앱입니다. 활동과 관심사를 중심으로 상대를 탐색하도록 설계했으며, 일반 사용자뿐 아니라 소정의 수고비를 받고 전문적으로 활동하는 가이드까지 선택할 수 있도록 구성해, 목적에 맞는 만남을 보다 유연하게 찾을 수 있도록 했습니다.",
     href: "/detail/nugulang",
-    mainimgsrc: ["/main_nugulang_pcx2.webp", "/main_nugulang_mobilex2.webp"],
+    mainimgsrc: [
+      "/main_nugulang_pcx2-2.webp",
+      "/main_nugulang_mobilex2-2.webp",
+    ],
     tags: [
       "UX/UI 디자인 100%",
       "Figma",

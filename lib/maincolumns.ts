@@ -3,7 +3,7 @@ export const PcColumn1 = [
     title: "누구랑 모바일앱",
     href: "/detail/nugulang",
     tools: ["/tool_figma.webp"],
-    imgsrc: "/thb_nugulangx2-2.webp",
+    imgsrc: "/thb_nugulangx2-3.webp",
     imgsize: [597.33, 467],
     tags: ["UX/UI", "Mobile", "브로드베이", "커뮤니티", "2026"],
   },

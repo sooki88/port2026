@@ -28,7 +28,7 @@ export default function NugulangPage() {
         </h5>
         <div className="relative w-full aspect-[1136/589] overflow-hidden mt-16 rounded-xs bg-main-gray-light/30">
           <Image
-            src="/p_nugulang1x2-2.webp"
+            src="/p_nugulang1x2-3.webp"
             alt="누구랑 이미지"
             fill
             className="object-contain object-center"
