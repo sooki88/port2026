@@ -15,7 +15,7 @@ export default function Header() {
     pathname === "/detail/gmpay" ||
     pathname === "/detail/copartner" ||
     pathname === "/detail/cotalk" ||
-    pathname === "/detail/gmapylanding" ||
+    pathname === "/detail/gmpaylanding" ||
     pathname === "/detail/hanasmart" ||
     pathname === "/detail/yogi" ||
     pathname === "/detail/partage";
