@@ -214,14 +214,7 @@ export const GraphicProjects: ProjectsType[] = [
       "C-Liner 제품설명서는 총 28페이지로 구성된 제품 안내서로, 회사 소개를 시작으로 제품 효과, 구성 부품, 조립 방법, 사용 예시, 관련 액세서리, 보관 방법, 주의사항까지 단계적으로 이해할 수 있도록 구성했습니다.",
     href: "/detail/cliner",
     mainimgsrc: ["/main_cliner_pcx15-3.webp", "/main_cliner_mobilex15-2.webp"],
-    tags: [
-      "에디토리얼 100%",
-      "Illustrator",
-      "리플릿",
-      "하나은행",
-      "금융",
-      "2021",
-    ],
+    tags: ["에디토리얼 100%", "Illustrator", "제품설명서", "조립가구", "2015"],
     links: [],
     pages: [
       {
