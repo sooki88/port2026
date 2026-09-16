@@ -18,7 +18,7 @@ export default function MaltuPage() {
         <h5 className="mt-4">
           같은 내용도 회사에서는 전문적으로, 연인에게는 다정하게 표현합니다. 관계에 따라 자연스럽게 달라지는 언어를 ‘회사·연인·외국인·직접 만들기’ 프리셋으로 구분하고, 존댓말 여부, 답변 길이, 표현 방식, 추가 요청과 피할 표현을 조합해 나만의 말투를 만들 수 있도록 설계했습니다. ‘회사·연인’ 프리셋에는 상황별 기본값과 화면에 드러나지 않는 세부 설정값을 적용해 사용자가 쉽게 시작할 수 있도록 했습니다. 다만 정해진 말투를 강요하지 않고 모든 항목을 수정할 수 있게 제공했으며, AI 변환 시에도 숨겨진 기본값보다 사용자가 직접 설정한 값을 우선하도록 설계했습니다. 복잡한 설정을 한 화면에 나열하는 대신 ‘상황 선택 → 말투 설정 → 실제 문장 테스트’의 3단계로 나누어, 사용자가 변환 결과를 직접 확인하고 조정한 뒤 저장할 수 있도록 구성했습니다.
         </h5>
-        <div className="relative w-full aspect-[1136/1173 overflow-hidden mt-16 rounded-xs bg-main-gray-light/30">
+        <div className="relative w-full aspect-[1136/1173] overflow-hidden mt-16 rounded-xs bg-main-gray-light/30">
           <Image
             src="/p_maltu1x2.webp"
             alt="말투 이미지"
