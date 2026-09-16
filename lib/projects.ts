@@ -7,10 +7,7 @@ export const Projects: ProjectsType[] = [
     description:
       "Maltu는 별도의 AI 앱을 오가거나 문장을 복사·붙여넣지 않고, 사용하던 키보드 위의 말투 바에서 현재 문장을 원하는 말투로 바로 변환하는 Android 기반 AI 커뮤니케이션 도구입니다. 회사, 연인, 외국어 업무 등 상황에 맞는 나만의 말투를 직접 설정해 여러 앱에서 사용할 수 있습니다. 말투 설정과 계정 관리는 Next.js 웹앱으로, 다른 앱 위에서 작동하는 말투 바는 Kotlin Native로 구현했습니다. 입력이 멈춘 1초 후 AI 변환을 시작하고, 문장이 바뀌면 이전 요청을 취소해 불필요한 변환을 줄였습니다. 또한 말투 바를 펼친 동안에만 현재 입력창을 확인하도록 설계해 사용자가 AI의 작동 범위를 직접 통제할 수 있게 했습니다.",
     href: "/detail/maltu",
-    mainimgsrc: [
-      "/main_maltu_pcx15.webp",
-      "/main_maltu_mobilex2.webp",
-    ],
+    mainimgsrc: ["/main_maltu_pcx15-1.webp", "/main_maltu_mobilex2-1.webp"],
     tags: [
       "AI 개발 100%",
       "UX/UI 디자인 100%",
@@ -19,9 +16,13 @@ export const Projects: ProjectsType[] = [
       "Mobile",
       "생산성 도구",
       "2026",
+      "현재 Android 심사중",
     ],
     links: [
-      { url: "https://maltu-marketing.sookhee9n.workers.dev", icon: "/link.svg" },
+      {
+        url: "https://maltu-marketing.sookhee9n.workers.dev",
+        icon: "/link.svg",
+      },
     ],
     pages: [
       {

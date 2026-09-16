@@ -309,16 +309,19 @@
 //   },
 // ];
 
-
-
 export const PcColumn1 = [
   {
     title: "말투 모바일앱",
     href: "/detail/maltu",
     tools: ["/tool_codex.webp", "/tool_figma.webp"],
-    imgsrc: "/thb_maltux2.webp",
+    imgsrc: "/thb_maltux2-1.webp",
     imgsize: [597.33, 464],
-    tags: ["1-Person Product (Planning · Design · AI Dev)", "Mobile", "생산성 도구", "2026"],
+    tags: [
+      "1-Person Product (Planning · Design · AI Dev)",
+      "Mobile",
+      "생산성 도구",
+      "2026",
+    ],
   },
   {
     title: "굿모닝페이 모바일앱",
@@ -328,7 +331,7 @@ export const PcColumn1 = [
     imgsize: [597.33, 450],
     tags: ["UX/UI · Publishing", "Mobile", "코리아페이먼트", "금융", "2025"],
   },
-    {
+  {
     title: "씨오파트너 웹앱",
     href: "/detail/copartner",
     tools: ["/tool_figma.webp"],
@@ -355,7 +358,7 @@ export const PcColumn2 = [
     imgsize: [597.33, 417],
     tags: ["UX/UI", "Web", "어니컴", "데이터시각화", "2025"],
   },
-    {
+  {
     title: "굿모닝페이 홈페이지",
     href: "/detail/gmpaylanding",
     tools: ["/tool_figma.webp", "/tool_html.webp"],
