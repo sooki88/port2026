@@ -2,6 +2,42 @@ import { ProjectsType } from "./types";
 
 export const Projects: ProjectsType[] = [
   {
+    slug: "maltu",
+    title: "말투 모바일앱",
+    description:
+      "Maltu는 별도의 AI 앱을 오가거나 문장을 복사·붙여넣지 않고, 사용하던 키보드 위의 말투 바에서 현재 문장을 원하는 말투로 바로 변환하는 Android 기반 AI 커뮤니케이션 도구입니다. 회사, 연인, 외국어 업무 등 상황에 맞는 나만의 말투를 직접 설정해 여러 앱에서 사용할 수 있습니다. 말투 설정과 계정 관리는 Next.js 웹앱으로, 다른 앱 위에서 작동하는 말투 바는 Kotlin Native로 구현했습니다. 입력이 멈춘 1초 후 AI 변환을 시작하고, 문장이 바뀌면 이전 요청을 취소해 불필요한 변환을 줄였습니다. 또한 말투 바를 펼친 동안에만 현재 입력창을 확인하도록 설계해 사용자가 AI의 작동 범위를 직접 통제할 수 있게 했습니다.",
+    href: "/detail/maltu",
+    mainimgsrc: [
+      "/main_maltu_pcx15.webp",
+      "/main_maltu_mobilex2.webp",
+    ],
+    tags: [
+      "AI 개발 100%",
+      "UX/UI 디자인 100%",
+      "Codex",
+      "Figma",
+      "Mobile",
+      "생산성 도구",
+      "2026",
+    ],
+    links: [
+      { url: "https://maltu-marketing.sookhee9n.workers.dev", icon: "/link.svg" },
+    ],
+    pages: [
+      {
+        value: "prev",
+        title: "Partage 웹사이트",
+        href: "/detail/partage",
+      },
+      { value: "next", title: "IMQA 모니터링 웹앱", href: "/detail/imqa" },
+    ],
+    mainimgtext: {
+      title: "만든 말투를, 쓰던 앱에서 바로",
+      description:
+        "말투 앱에서는 회사·연인·외국어 업무 등 상황별 말투를 설정하고 저장합니다. 저장한 말투는 카카오톡, 텔레그램, 인스타그램 등 다른 앱의 입력창에서 말투 바로 불러올 수 있습니다. 앱을 이동하거나 키보드를 교체하지 않아도, 대화 중 원하는 말투를 선택해 현재 작성한 문장을 바로 변환할 수 있도록 설계했습니다. 말투 바가 기존 앱의 메시지나 주요 기능을 가리지 않도록 드래그를 통한 수직 이동을 지원합니다. 좌우 위치는 고정하고 위아래로만 움직이게 해, 조작은 단순하게 유지하면서 앱마다 다른 화면 구성에 맞춰 위치를 조정할 수 있도록 했습니다.",
+    },
+  },
+  {
     slug: "nugulang",
     title: "누구랑 모바일앱",
     description:
@@ -34,7 +70,6 @@ export const Projects: ProjectsType[] = [
         "로고, 컬러, 말투, 사진 업로드 방식까지 브랜드 경험 전반을 일관되게 설계해, 서비스가 지향하는 활동 중심의 가볍고 건강한 만남이 자연스럽게 전달되도록 했습니다. 함께 걷는 두 사람의 일러스트 로고와 밝은 라임 그린 계열의 메인 컬러를 적용해 친근하고 긍정적인 인상을 만들고, 부드러운 말투와 활동 사진 중심의 등록 구조를 통해 외적인 조건보다 취미와 관심사가 먼저 보이도록 구성했습니다.",
     },
   },
-
   {
     slug: "imqa",
     title: "IMQA 모니터링 웹앱",
