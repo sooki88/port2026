@@ -60,10 +60,10 @@ export const Projects: ProjectsType[] = [
     pages: [
       {
         value: "prev",
-        title: "Partage 웹사이트",
-        href: "/detail/partage",
+        title: "굿모닝페이 홈페이지",
+        href: "/detail/gmpaylanding",
       },
-      { value: "next", title: "IMQA 모니터링 웹앱", href: "/detail/imqa" },
+      { value: "next", title: "씨오파트너 웹앱", href: "/detail/copartner" },
     ],
     mainimgtext: {
       title: "서비스 톤앤매너 설계",
@@ -90,8 +90,8 @@ export const Projects: ProjectsType[] = [
     pages: [
       {
         value: "prev",
-        title: "누구랑 모바일앱",
-        href: "/detail/nugulang",
+        title: "말투 모바일앱",
+        href: "/detail/maltu",
       },
       { value: "next", title: "IMQA 랜딩페이지", href: "/detail/imqalanding" },
     ],
@@ -132,8 +132,8 @@ export const Projects: ProjectsType[] = [
       { value: "prev", title: "IMQA 모니터링 웹앱", href: "/detail/imqa" },
       {
         value: "next",
-        title: "굿모닝페이 홈페이지",
-        href: "/detail/gmpaylanding",
+        title: "굿모닝페이 모바일앱",
+        href: "/detail/gmpay",
       },
     ],
     mainimgtext: {
@@ -163,10 +163,10 @@ export const Projects: ProjectsType[] = [
     pages: [
       {
         value: "prev",
-        title: "굿모닝페이 홈페이지",
-        href: "/detail/gmpaylanding",
+        title: "IMQA 랜딩페이지",
+        href: "/detail/imqalanding",
       },
-      { value: "next", title: "씨오파트너 웹앱", href: "/detail/copartner" },
+      { value: "next", title: "굿모닝페이 홈페이지", href: "/detail/gmpaylanding" },
     ],
     mainimgtext: {
       title: "핵심 정보와 빠른 접근을 중심으로 구성한 홈 화면",
@@ -196,11 +196,11 @@ export const Projects: ProjectsType[] = [
     ],
     links: [{ url: "https://gmpay.kr", icon: "/link.svg" }],
     pages: [
-      { value: "prev", title: "IMQA 랜딩페이지", href: "/detail/imqalanding" },
+      { value: "prev", title: "굿모닝페이 모바일앱", href: "/detail/gmpay" },
       {
         value: "next",
-        title: "굿모닝페이 모바일앱",
-        href: "/detail/gmpay",
+        title: "누구랑 모바일앱",
+        href: "/detail/nugulang",
       },
     ],
     mainimgtext: {
@@ -261,7 +261,7 @@ export const Projects: ProjectsType[] = [
     ],
     links: [{ url: "https://copartner.kr/intro", icon: "/link.svg" }],
     pages: [
-      { value: "prev", title: "굿모닝페이 모바일앱", href: "/detail/gmpay" },
+      { value: "prev", title: "누구랑 모바일앱", href: "/detail/nugulang" },
       { value: "next", title: "씨오톡 모바일앱", href: "/detail/cotalk" },
     ],
     mainimgtext: {
@@ -355,7 +355,7 @@ export const Projects: ProjectsType[] = [
     ],
     pages: [
       { value: "prev", title: "요기거리 모바일앱", href: "/detail/yogi" },
-      { value: "next", title: "누구랑 모바일앱", href: "/detail/nugulang" },
+      { value: "next", title: "말투 모바일앱", href: "/detail/maltu" },
     ],
     mainimgtext: {
       title: "영상 몰입과 시청 피로도를 고려한 다크모드 설계",
