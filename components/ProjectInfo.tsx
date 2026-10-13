@@ -23,7 +23,7 @@ export default function ProjectInfo({
           {project.tags.map((tag) => (
             <div
               key={tag}
-              className="flex items-center shrink-0 px-2 h-[26px] md:h-[29px] pb-[1px] bg-main-gray-light/50 text-[14px] rounded-xs"
+              className="flex items-center shrink-0 px-2 h-[26px] md:h-[29px] bg-main-gray-light/50 text-[14px] rounded-xs"
             >
               {tag}
             </div>
@@ -40,7 +40,7 @@ export default function ProjectInfo({
                   target="_blank"
                   rel="noopener noreferrer"
                   key={`link ${idx}`}
-                  className="flex items-center gap-1 shrink-0 pl-2 pr-3 h-[26px] md:h-[29px] pb-[1px] bg-main-gray-light/50 text-[14px] rounded-xs"
+                  className="flex items-center gap-1 shrink-0 pl-2 pr-3 h-[26px] md:h-[29px] bg-main-gray-light/50 text-[14px] rounded-xs"
                 >
                   <Image
                     src={link.icon}

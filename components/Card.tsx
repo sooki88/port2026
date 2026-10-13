@@ -56,7 +56,7 @@ export function Card({
           <div
             key={`${title} ${tag}`}
             // className="flex items-center justify-center shrink-0 px-1 h-[17px] bg-main-gray-light/50 text-[11px]"
-            className="flex items-center justify-center shrink-0 px-[6px] pt-[2px] pb-[2px] bg-main-gray-light/50 text-[11px] leading-[1.3]"
+            className="flex items-center justify-center shrink-0 px-[6px] pt-[2.5px] pb-[2px] bg-main-gray-light/50 text-[11px] leading-[1.3]"
             // className="flex items-center justify-center shrink-0 px-[6px] h-[17px] bg-main-gray-light/50 text-[11px] leading-[1.3]"
           >
             {tag}
