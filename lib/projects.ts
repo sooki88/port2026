@@ -16,11 +16,10 @@ export const Projects: ProjectsType[] = [
       "Mobile",
       "생산성 도구",
       "2026",
-      "현재 Android 심사중",
     ],
     links: [
       {
-        url: "https://maltu-marketing.sookhee9n.workers.dev",
+        url: "https://play.google.com/store/apps/details?id=com.maltu.app&pcampaignid=web_share",
         icon: "/link.svg",
       },
     ],
@@ -166,7 +165,11 @@ export const Projects: ProjectsType[] = [
         title: "IMQA 랜딩페이지",
         href: "/detail/imqalanding",
       },
-      { value: "next", title: "굿모닝페이 홈페이지", href: "/detail/gmpaylanding" },
+      {
+        value: "next",
+        title: "굿모닝페이 홈페이지",
+        href: "/detail/gmpaylanding",
+      },
     ],
     mainimgtext: {
       title: "핵심 정보와 빠른 접근을 중심으로 구성한 홈 화면",
