@@ -55,7 +55,12 @@ export const Projects: ProjectsType[] = [
       "커뮤니티",
       "2026",
     ],
-    links: [],
+    links: [
+      {
+        url: "https://play.google.com/store/apps/details?id=com.daymate.app",
+        icon: "/link.svg",
+      },
+    ],
     pages: [
       {
         value: "prev",
