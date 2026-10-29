@@ -49,7 +49,7 @@ export default function ProjectInfo({
                     height={21}
                   />
 
-                  {link.url}
+                  {link.label}
                 </Link>
               );
             })}

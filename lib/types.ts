@@ -14,6 +14,7 @@ export interface ProjectsType {
 export interface LinkType {
   url: string;
   icon: string;
+  label: string;
 }
 
 export interface PagesType {

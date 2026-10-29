@@ -21,6 +21,7 @@ export const Projects: ProjectsType[] = [
       {
         url: "https://play.google.com/store/apps/details?id=com.maltu.app&pcampaignid=web_share",
         icon: "/link.svg",
+        label: "Google Play",
       },
     ],
     pages: [
@@ -59,6 +60,7 @@ export const Projects: ProjectsType[] = [
       {
         url: "https://play.google.com/store/apps/details?id=com.daymate.app",
         icon: "/link.svg",
+        label: "Google Play",
       },
     ],
     pages: [
@@ -126,10 +128,15 @@ export const Projects: ProjectsType[] = [
       "2026",
     ],
     links: [
-      { url: "https://imqa.io", icon: "/link.svg" },
+      {
+        url: "https://imqa.io",
+        icon: "/link.svg",
+        label: "IMQA 랜딩페이지 열기",
+      },
       {
         url: "https://github.com/sooki88/imqalanding.git",
         icon: "/github.svg",
+        label: "GitHub",
       },
     ],
     pages: [
@@ -202,7 +209,7 @@ export const Projects: ProjectsType[] = [
       "금융",
       "2024",
     ],
-    links: [{ url: "https://gmpay.kr", icon: "/link.svg" }],
+    links: [{ url: "https://gmpay.kr", icon: "/link.svg", label: "gmpay.kr" }],
     pages: [
       { value: "prev", title: "굿모닝페이 모바일앱", href: "/detail/gmpay" },
       {
@@ -233,7 +240,13 @@ export const Projects: ProjectsType[] = [
       "커뮤니티",
       "2022",
     ],
-    links: [{ url: "https://copartner.kr/cotalk", icon: "/link.svg" }],
+    links: [
+      {
+        url: "https://copartner.kr/cotalk",
+        icon: "/link.svg",
+        label: "copartner.kr/cotalk",
+      },
+    ],
     pages: [
       { value: "prev", title: "씨오파트너 웹앱", href: "/detail/copartner" },
       {
@@ -267,7 +280,13 @@ export const Projects: ProjectsType[] = [
       "금융",
       "2023",
     ],
-    links: [{ url: "https://copartner.kr/intro", icon: "/link.svg" }],
+    links: [
+      {
+        url: "https://copartner.kr/intro",
+        icon: "/link.svg",
+        label: "copartner.kr",
+      },
+    ],
     pages: [
       { value: "prev", title: "누구랑 모바일앱", href: "/detail/nugulang" },
       { value: "next", title: "씨오톡 모바일앱", href: "/detail/cotalk" },
@@ -359,6 +378,7 @@ export const Projects: ProjectsType[] = [
       {
         url: "https://github.com/sooki88/partage_web_forked",
         icon: "/github.svg",
+        label: "GitHub",
       },
     ],
     pages: [
