@@ -131,7 +131,7 @@ export const Projects: ProjectsType[] = [
       {
         url: "https://imqa.io",
         icon: "/link.svg",
-        label: "IMQA 랜딩페이지 열기",
+        label: "imqa.io",
       },
       {
         url: "https://github.com/sooki88/imqalanding.git",
