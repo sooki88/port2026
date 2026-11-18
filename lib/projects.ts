@@ -50,6 +50,7 @@ export const Projects: ProjectsType[] = [
     ],
     tags: [
       "UX/UI 디자인 100%",
+      "퍼블리싱 10%",
       "Figma",
       "Mobile",
       "브로드베이",
