@@ -63,6 +63,11 @@ export const Projects: ProjectsType[] = [
         icon: "/link.svg",
         label: "Google Play",
       },
+      {
+        url: "https://apps.apple.com/kr/app/%EB%88%84%EA%B5%AC%EB%9E%91-%ED%98%BC%EC%9E%90%EA%B0%80-%EC%95%84%EC%89%AC%EC%9A%B4-%EC%88%9C%EA%B0%84-%EB%88%84%EA%B5%AC%EB%9E%91-%ED%95%A8%EA%BB%98%ED%95%A0%EA%B9%8C/id6753176538",
+        icon: "/link.svg",
+        label: "App Store",
+      },
     ],
     pages: [
       {
